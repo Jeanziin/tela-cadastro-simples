@@ -1,0 +1,32 @@
+body {
+    background: #000000;
+    background: linear-gradient(to right, #23003f, #23003f);
+  }
+  
+  .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://source.unsplash.com/r8AFUpRp0J0/414x512');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google, .btn-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+  .form-floating label {
+    color: #495057;
+    font-size: 0.875rem;
+    opacity: 0.65;
+}
